@@ -1,7 +1,7 @@
 pygments: true
-permalink: /:year/:month/:day/:title
-title: My Project Timeline
-baseurl: /project-timeline
+permalink: /timeline/:year/:month/:day/:title
+title: Base Creative Timeline
+baseurl: /timeline
 linked_posts: true
 
 # Sets the default folder in Prose.io
