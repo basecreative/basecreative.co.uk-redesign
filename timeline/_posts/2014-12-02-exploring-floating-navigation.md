@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+title: Exploring floating navigation icon
 ---
 
 [View codepen](http://codepen.io/jaicab/pen/OPypVZ)
