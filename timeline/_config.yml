@@ -2,7 +2,7 @@ pygments: true
 source: /timeline/
 permalink: /timeline/:year/:month/:day/:title
 title: Base Creative Timeline
-baseurl: /timeline
+baseurl: /timeline/
 linked_posts: true
 
 # Sets the default folder in Prose.io
