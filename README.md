@@ -1,8 +1,6 @@
-[basecreative.eu](http://www.basecreative.eu)
+[Base Creative Site Open Redesign](http://basecreative.github.io/basecreative.co.uk)
 ===============
 
-Open implementation of Base Creative's new website. It's been redesigned already, so this would just cover the front-end and back-end development.
-
-You can check out our [timeline](http://basecreative.github.io/basecreative.eu/timeline/) and the related material.
+Open implementation of Base Creative's new website.
 
 Feel free to give any kind of feedback or learn from this code and/or material.

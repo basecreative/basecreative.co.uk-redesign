@@ -2,9 +2,75 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Test</title>
+	<title>Base Creative - Open Redesign</title>
+
+	<style>
+		body{
+			margin: 0 auto;
+			padding: 2em 2em;
+			padding: 20vh 2em 2em 2em;
+			background: #FBF7E5;
+			color: #888C85;
+			max-width: 25em;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 1em;
+			line-height: 1.2;
+		}
+		h1,h2{
+			font-family: Georgia, serif;
+		}
+		img{ max-width: 100%; }
+		ul{ list-style: square; }
+		a{
+			color: #29313D;
+			transition: .25s all;
+		}
+		a:hover,
+		a:focus,
+		a:active{
+			color: #888C85;
+		}
+		.header__logo{
+			display: block;
+			width: 75%;
+			margin: 0 auto;
+		}
+		.header,
+		.footer{
+			text-align: center;
+		}
+		.footer{
+			font-size: .9em;
+		}
+
+	</style>
 </head>
 <body>
-	test
+	<header class="header">
+
+		<picture class="header__logo">
+			<h1><img src="images/logo.png" alt="Base Creative Logo"></h1>
+		</picture>
+		<h2>We are currently doing an open, living redesign of our website.</h2>
+
+	</header>
+	<main class="main">
+
+		<p>Feel free to check out with our:</p>
+		<ul>
+			<li><a href="/timeline/">Timeline</a></li>
+			<li><a href="http://basecreative.github.io/styleguide/">Styleguide</a></li>
+			<li>Final site (not started yet)</li>
+		</ul>
+		<p>You are able to do as you wish with all this info. If you use it for another London's agency site, it would be a little uncool. But we're not gonna rush it.</p>
+		<p>We just hope it helps somebody discover something new about the web because heck, we love it.</p>
+
+	</main>
+	<footer class="footer">
+
+		Made with &hearts; by the
+		Base Creative Team
+		
+	</footer>
 </body>
 </html>
