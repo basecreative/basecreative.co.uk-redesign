@@ -15,6 +15,9 @@
 	<meta name="twitter:description" content="We are currently doing an open, living redesign of our website." />
 	<meta name="twitter:url" content="http://basecreative.github.io/basecreative.co.uk/" />
 
+
+	<link rel="stylesheet" href="css/font.css" />
+
 	<style>
 		body{
 			margin: 0 auto;
@@ -23,7 +26,7 @@
 			background: #FBF7E5;
 			color: #888C85;
 			max-width: 25em;
-			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-family: "Foundry Sterling W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
 			font-size: 1em;
 			line-height: 1.2;
 		}
@@ -33,7 +36,7 @@
 			font-style: italic;
 		}
 		img{ max-width: 100%; }
-		ul{ list-style: square; }
+		ul{ list-style: disc; }
 		a{
 			color: #29313D;
 			transition: .25s all;
@@ -58,6 +61,12 @@
 
 	</style>
 </head>
+
+      <script>
+        !function(){"use strict";function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))c(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(c(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var a=document.createElement("link");a.href=o,a.rel="stylesheet",a.type="text/css",document.getElementsByTagName("head")[0].appendChild(a),document.cookie="font_css_cache"}}function c(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="/basecreative.co.uk/font.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();
+        </script>
+
+
 <body>
 	<header class="header">
 
